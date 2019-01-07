@@ -91,7 +91,7 @@ class EveOnlineSSOResourceOwner implements ResourceOwnerInterface
      */
     public function getCorporationId()
     {
-        return $this->characterInfo['corporation_id'];
+        return $this->characterInfo['alliance_id'];
     }
 
     /**
